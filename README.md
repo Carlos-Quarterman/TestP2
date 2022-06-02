@@ -5,53 +5,53 @@ GitHub are used for version control management.
 
 
 # Technologies Used
-Spark - version 1.0
-Scala - version 2.0
-Spark SQL - version 3.0
-Hive - version 
-
+• Spark - version 3.1.3
+• Scala - version 2.11.12
+• Hive - version 3.1.2
 
 # Features
-List of features ready and TODOs for future development
 
-Awesome feature 1
-Awesome feature 2
-Awesome feature 3
+• Generating output from a .csv file (HDFS)
+• Analyzing csv file
+• Features used: a.	Scanner Utillity, b.	 ListBuffer, c.	 Random, d.	Random   Shuffle, e.	Visualization Tool: Microsoft Excel
+
+• Creating visualizing tool that display the analytics graphically 
+ that provide clear answers to the questions that the marketing 
+ department asked:
+ a.	What is the top selling category of items? Per Country?
+ b.	How does the popularity of products change throughout the year? Per 
+    Country?
+ c.	Which locations see the highest traffic of sales?
+ d.	What times have the highest traffic of sales? Per Country?
 
 # To-do list:
 
-Wow improvement to be done 1
-Wow improvement to be done 2
+• Analyzing rouge data and finding ways to minimize it
+• Integrate more relative data to our database in order to have a full  analysis including factors that affect data.
+• Analyzing the causes of empty spots
+• Analyzing individual items and observing relationships between other columns
 
 # Getting Started
-(include git clone command)
-(include all environment setup steps)
-
-
-
-Be sure to include BOTH Windows and Unix command
-
-Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-
-
-All the code required to get started
-Images of what it should look like
+• To clone original branch: git clone URL
+• To create a new branch: git branch Name
+• To add new changes: git add .
+• To commit changes: git commit -m “Message”
+• To push changes to GitHub: git push origin Name
 
 # Usage
 
-Here, you instruct other people on how to use your project
- after they’ve installed it. This would also be a good place to include 
-screenshots of your project in action.
+In VSCode:
 
-
+• Run sbt in folder with build.sbt
+• Then  run in Spark-Shell:
+• Copy file to hdfs home:
+• Read file
+• Create a temp view:
 
 # Contributors
 
-Here list the people who have contributed to this project. (ignore this section, if its a solo project)
-
-
-
-# License
-This project uses the following license: <license_name>.
-
+Gerald Amory
+Julia Berezina
+Sam Birk
+Tammy Huynh
+Carlos Quarterman
