@@ -31,7 +31,7 @@ GitHub are used for version control management.
 • Analyzing the causes of empty spots
 • Analyzing individual items and observing relationships between other columns
 
-# Getting Started
+# Git Commands Used: 
 • To clone original branch: git clone URL
 • To create a new branch: git branch Name
 • To add new changes: git add .
