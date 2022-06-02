@@ -1,8 +1,8 @@
 # E-Commerce Data Analysis  
+
 # Project Description
 A Spark application. This application will take in a generated csv file of mock ecommerce data and aims to answer a series of analytical  questions. The processing of data will be done using Spark SQL. Git and 
 GitHub are used for version control management.
-
 
 # Technologies Used
 • Spark - version 3.1.3
@@ -10,11 +10,9 @@ GitHub are used for version control management.
 • Hive - version 3.1.2
 
 # Features
-
 • Generating output from a .csv file (HDFS)
 • Analyzing csv file
 • Features used: a.	Scanner Utillity, b.	 ListBuffer, c.	 Random, d.	Random   Shuffle, e.	Visualization Tool: Microsoft Excel
-
 • Creating visualizing tool that display the analytics graphically 
  that provide clear answers to the questions that the marketing 
  department asked:
@@ -25,7 +23,6 @@ GitHub are used for version control management.
  d.	What times have the highest traffic of sales? Per Country?
 
 # To-do list:
-
 • Analyzing rouge data and finding ways to minimize it
 • Integrate more relative data to our database in order to have a full  analysis including factors that affect data.
 • Analyzing the causes of empty spots
@@ -39,9 +36,7 @@ GitHub are used for version control management.
 • To push changes to GitHub: git push origin Name
 
 # Usage
-
 In VSCode:
-
 • Run sbt in folder with build.sbt
 • Then  run in Spark-Shell:
 • Copy file to hdfs home:
@@ -49,7 +44,6 @@ In VSCode:
 • Create a temp view:
 
 # Contributors
-
 Gerald Amory
 Julia Berezina
 Sam Birk
